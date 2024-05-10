@@ -3,9 +3,9 @@ if(process.env.NODE_ENV === 'development'){
 }
 
 const express = require('express');
-const connectDB = require('./src/db/config');
 const morgan = require('morgan');
 const cors = require('cors');
+const connectDB = require('./src/db/config');
 const bodyparser = require('body-parser');
 
 

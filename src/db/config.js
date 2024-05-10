@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// Definir una función para establecer la conexión a la base de datos
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_CNN);
@@ -12,4 +11,4 @@ const connectDB = async () => {
 
     }
 }
-module.exports = connectDB
+module.exports = connectDB;
